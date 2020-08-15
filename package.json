@@ -44,6 +44,7 @@
   },
   "dependencies": {
     "cosmiconfig": "^5.0.2",
+    "lodash.merge": "^4.6.2",
     "loglevel": "^1.6.1"
   }
 }

@@ -17,6 +17,16 @@ If you need to handle others extensions than the default one —*`.txt`*, put a 
 }
 ```
 
+There are additional text replacements that can be useful. They belong in the `replacers` key in your package config file. Here are the default settings:
+
+```json
+{
+  "replacers": {
+    "escapeBackSlashes": false
+  }
+}
+```
+
 # Debug
 
 By setting `LOG_LEVEL` environment variable to `trace` you can see config loading errors, like so for example:
